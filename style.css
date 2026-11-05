@@ -1,0 +1,187 @@
+body {
+    background-color: rgba(17, 17, 17);
+    color: rgb(221, 221, 221);
+}
+
+h1 {
+    color: rgb(236, 24, 42);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 42px;
+}
+
+.pagetitle {
+    text-align: center;
+}
+
+.topnav {
+    background-color: rgba(236, 24, 42);
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 60;
+    padding: 20px 40px;
+
+}
+
+.topnav span {
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 0.5em;
+
+}
+
+main {
+    max-width: 28rem;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+p {
+    max-width: 30em;
+}
+
+a {
+    color: rgb(255, 255, 255);
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+.pagetitle {
+    font-family: "Special Elite", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.maintext {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.boxed-list {
+    border: 4px solid rgba(236, 24, 42);
+    padding: 2em;
+    margin: 2em;
+}
+
+.centre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    display: block;
+    margin-top: 1rem;
+    font-weight: 600;
+}
+
+input,
+select,
+textarea {
+    display: block;
+    width: 100%;
+    max-width: 36rem;
+    font: inherit;
+    padding: 0.6rem;
+    border: 2px solid rgb(158, 8, 21);
+    border-radius: 6px;
+}
+
+input:user-invalid,
+textarea:user-invalid {
+    border-color: rgb(158, 8, 21);
+    background: #ffffff;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.7rem 1rem;
+    font: inherit;
+    background-color: rgb(236, 24, 42);
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.merchcards {
+    display: grid;
+    grid-template-columns: repeat(1, 230px);
+    gap: 10px;
+    justify-content: center;
+}
+
+.merchcard {
+    background: rgb(236, 24, 42);
+    border: 4px solid rgb(158, 8, 21);
+    border-radius: 4px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.card {
+    background: rgb(236, 24, 42);
+    border: 4px solid rgb(158, 8, 21);
+    border-radius: 8px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.merchs {
+    display: grid;
+    grid-template-columns: repeat(4, 230px);
+    gap: 20px;
+    justify-content: center;
+}
+
+.merch {
+    background: rgb(236, 24, 42);
+    border: 4px solid rgb(158, 8, 21);
+    border-radius: 8px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.merchworking {
+    background: rgb(236, 24, 42);
+    border: 4px solid rgb(68, 5, 5);
+    border-radius: 8px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.merch img {
+    max-width: 100%;
+    height: auto;
+}
+
+.news {
+    background: rgb(46, 46, 46);
+    border: 4px solid rgb(167, 167, 167);
+    border-radius: 8px;
+    padding: 1em;
+    box-sizing: border-box;
+}
+
+.news img {
+    max-width: 100%;
+    height: auto;
+}
