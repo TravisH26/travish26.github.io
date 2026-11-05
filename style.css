@@ -194,3 +194,28 @@ button {
     max-width: 100%;
     height: auto;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  flex: 1 1 300px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .container {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    grid-template-columns: 280px 2fr 1fr;
+  }
+}
